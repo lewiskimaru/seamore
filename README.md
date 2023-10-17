@@ -80,21 +80,22 @@ _INSTRUCTIONS: The following deliverables should be officially posted to your My
 
 ### Project development roadmap
 
-The project currently does the following things.
+The project currently consists of 3 main components: our custom machine learning models, the electronic system for the AUV (seabot) and the website where users can interact with the models and does the following things.
 
-- Feature 1
-- Feature 2
-- Feature 3
+- Identify marine life
+- Identify trash in the ocean
+- analyzing the health of coral reefs 
 
-In the future we plan to...
-
+In the future, we would like to:
+- Improve our machine learning models to make them more accurate and efficient.
+- Build a better mapping system to visualize and share Seamore data in a more informative and engaging way.
+- Design and develop a more durable and affordable Seabot structure for mass production.
+- Partner with a satellite communication company to enable data transfer to and fro the seabots
+- Seek funding to support the continued development of Seamore, including the possibility of developing a solution to help recover trash from the ocean.
+  
 See below for our proposed schedule on next steps after Call for Code 2023 submission.
 
 ![Roadmap](./images/roadmap.jpg)
-
-## Additional details
-
-_INSTRUCTIONS: The following deliverables are suggested, but **optional**. Additional details like this can help the judges better review your solution. Remove any sections you are not using._
 
 ### How to run the project
 
@@ -102,9 +103,7 @@ INSTRUCTIONS: In this section you add the instructions to run your project on yo
 
 ### Live demo
 
-You can find a running system to test at...
-
-See our [description document](./docs/DESCRIPTION.md) for log in credentials.
+You can find a running system to test at our [Website](https://www.seamore.earth/Solutions.html)
 
 ---
 
@@ -121,12 +120,8 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
 ### Authors
-
-<a href="https://github.com/Call-for-Code/Project-Sample/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=Call-for-Code/Project-Sample" />
-</a>
-
-- **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
+- Lewis Kamau Kimaru
+- Sophia Musa
 
 ### License
 
