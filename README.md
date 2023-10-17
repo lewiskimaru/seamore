@@ -1,10 +1,6 @@
 [![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Community](https://img.shields.io/badge/Join-Community-blue)](https://developer.ibm.com/callforcode/solutions/projects/get-started/)
 
-_INSTRUCTIONS: This GitHub repository serves as a template you can use to create a new project for the [2023 Call for Code Global Challenge](https://developer.ibm.com/callforcode/global-challenge/). Use the **Use this template** button to create a new version of this repository and start entering content for your own Call for Code submission project. Make sure you have [registered for the 2023 Call for Code Global Challenge](https://developer.ibm.com/callforcode/global-challenge/register/) to access resources and full project submission instructions. Remove any "INSTRUCTIONS" sections when you are ready to submit your project._
-
-_New to Git and GitHub? This free online course will get you up to speed quickly: [Getting Started with Git and GitHub](https://www.coursera.org/learn/getting-started-with-git-and-github)_.
-
-# Replace this heading with your team/submission name
+# Seamore
 
 - [Project summary](#project-summary)
   - [The issue we are hoping to solve](#the-issue-we-are-hoping-to-solve)
@@ -27,40 +23,41 @@ _New to Git and GitHub? This free online course will get you up to speed quickly
   - [License](#license)
   - [Acknowledgments](#acknowledgments)
 
-_INSTRUCTIONS: Complete all required deliverable sections below._
 
 ## Project summary
 
 ### The issue we are hoping to solve
 
-REPLACE THIS SENTENCE with a short description, 2-3 sentences in length, of the specific sustainability problem your solution is meant to address.
+Seamore aims to address the critical issue of rapidly deteriorating ocean health and biodiversity due to various factors such as climate change, overfishing, and pollution. By providing real-time data on marine species, ocean pollution, coral reef health, and other vital parameters, Seamore seeks to enable informed decision-making and foster sustainable practices to mitigate these challenges. Through its comprehensive approach to ocean exploration and conservation, Seamore endeavors to contribute significantly to the preservation and protection of marine ecosystems worldwide.
 
 ### How our technology solution can help
 
-REPLACE THIS SENTENCE with a short description of your team's solution, in about 10 words.
+Seamore: Real-time ocean data for informed conservation and management.
 
 ### Our idea
+What's Up with this water ????
 
-INSTRUCTIONS: Replace this paragraph with a longer description of your solution. In about 500 words, describe your solution in more detail. Include the real-world problem you identified, describe the technological solution you have created, and explain how it’s an improvement over existing solutions. You can supply additional documentation in this source code repository that you link to as well.
+Seamore was conceived in response to the escalating environmental challenges faced by our oceans, which are experiencing unprecedented stress due to climate change, overfishing, and pollution. These factors collectively threaten the delicate balance of marine ecosystems and jeopardize the biodiversity crucial to the sustenance of life on our planet. Recognizing the urgency of the situation, our team embarked on a mission to develop an integrated solution that would harness the power of advanced technology to monitor, analyze, and protect our oceans.
 
-More detail is available in our [description document](./docs/DESCRIPTION.md).
+At the heart of Seamore are intelligent Machine Learning models built into a network of autonomous underwater vehicles called Seabots. These Seabots operate seamlessly, collecting a wide array of vital data, including information on ocean pollutants, marine biodiversity, coral reef health, and key oceanic parameters such as temperature and pH levels. The data collected by the Seabot network is then meticulously mapped onto a globe interface, ensuring accessibility for anyone seeking to understand and utilize this comprehensive and real-time information for the benefit of oceanic research and conservation efforts.
+
+The existing methods of ocean monitoring and data collection often suffer from limitations such as human resource constraints, sporadic data acquisition, and insufficient coverage. Seamore represents a significant leap forward in addressing these challenges by offering a comprehensive and continuous approach to ocean observation and analysis. Unlike traditional techniques that rely on infrequent sampling, Seamore's real-time monitoring capabilities provide a continuous stream of data, enabling a more holistic understanding of the dynamic changes occurring in our oceans. By delivering accurate and timely information, Seamore empowers stakeholders, including researchers, policymakers, and environmental organizations, to proactively respond to emerging threats and implement effective strategies for marine ecosystem preservation.
+
+Moreover, Seamore's integrated approach serves as a significant improvement over existing solutions by offering a multifaceted perspective on ocean health. By combining the detection of pollutants, monitoring of marine life, and assessment of coral reef health, Seamore provides a comprehensive overview of the various interrelated factors influencing the well-being of marine ecosystems. This holistic approach is crucial for developing targeted conservation measures, implementing sustainable fishing practices, and advocating for the protection of vulnerable marine species and habitats.
+
+In essence, Seamore represents a pioneering technological solution that is poised to revolutionize the field of ocean exploration and conservation. By leveraging the capabilities of advanced robotics and data analytics, Seamore is dedicated to safeguarding the health and resilience of our oceans, ensuring the preservation of marine biodiversity for future generations. Through collaborative efforts and a shared commitment to environmental stewardship, Seamore aims to foster a global movement toward sustainable ocean management and a more secure future for our planet's most vital ecosystem.
+
+More detail is available in our [website](https://www.seamore.earth/).
 
 ## Technology implementation
 
 ### IBM AI service(s) used
 
-_INSTRUCTIONS: Included here is a list of commonly used IBM AI services. Remove any services you did not use, or add others from the linked catalog not already listed here. Leave only those included in your solution code. Provide details on where and how you used each IBM AI service to help judges review your implementation. Remove these instructions._
-
-- [IBM Natural Language Understanding](https://cloud.ibm.com/catalog/services/natural-language-understanding) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Assistant](https://cloud.ibm.com/catalog/services/watson-assistant) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Discovery](https://cloud.ibm.com/catalog/services/watson-discovery) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Speech to Text](https://cloud.ibm.com/catalog/services/speech-to-text) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Text to Speech](https://cloud.ibm.com/catalog/services/text-to-speech) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- List any additional [IBM AI services](https://cloud.ibm.com/catalog?category=ai#services) used or remove this line
+- IBM Watson Machine Learning - model inference (see inference server)
 
 ### Other IBM technology used
 
-INSTRUCTIONS: List any other IBM technology used in your solution and describe how each component was used. If you can provide links to/details on exactly where these were used in your code, that would help the judges review your submission.
+- IBM Cloud Object Storage - Computer vision models and data collected from the seabot network
 
 ### Solution architecture
 
