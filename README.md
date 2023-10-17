@@ -17,8 +17,6 @@
   - [How to run the project](#how-to-run-the-project)
   - [Live demo](#live-demo)
 - [About this template](#about-this-template)
-  - [Contributing](#contributing)
-  - [Versioning](#versioning)
   - [Authors](#authors)
   - [License](#license)
   - [Acknowledgments](#acknowledgments)
@@ -97,6 +95,8 @@ See below for our proposed schedule on next steps after Call for Code 2023 submi
 
 ![Roadmap](./images/roadmap.jpg)
 
+## Additional details
+
 ### How to run the project
 
 INSTRUCTIONS: In this section you add the instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production.
@@ -105,19 +105,7 @@ INSTRUCTIONS: In this section you add the instructions to run your project on yo
 
 You can find a running system to test at our [Website](https://www.seamore.earth/Solutions.html)
 
----
-
-_INSTRUCTIONS: You can remove the below section from your specific project README._
-
 ## About this template
-
-### Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-### Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
 ### Authors
 - Lewis Kamau Kimaru
