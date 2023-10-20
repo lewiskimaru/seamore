@@ -77,7 +77,10 @@ Diagram and a step-by-step description of the flow of our solution:
 
 ### Solution demo video
 
-[![Watch the video](https://raw.githubusercontent.com/Liquid-Prep/Liquid-Prep/main/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
+[![Watch the video](https://raw.githubusercontent.com/Liquid-Prep/Liquid-Prep/main/images/readme/IBM-interview-video-image.png)](https://youtu.be/eySVwye8J-g?si=yRmHehhKlUsVgFwC)
+
+[<img src="https://img.youtube.com/vi/yRmHehhKlUsVgFwC/maxresdefault.jpg"
+/>](https://www.youtube.com/embed/yRmHehhKlUsVgFwC)
 
 ### Project development roadmap
 
