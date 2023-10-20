@@ -93,7 +93,7 @@ In the future, we would like to:
   
 See below for our proposed schedule on next steps after Call for Code 2023 submission.
 
-![Roadmap](./images/roadmap.jpg)
+![Roadmap](./images/roadmap.png)
 
 ## Additional details
 
@@ -110,6 +110,7 @@ You can find a running system to test at our [Website](https://www.seamore.earth
 ### Authors
 - Lewis Kamau Kimaru
 - Sophia Musa
+- Elly Kimutai
 
 ### License
 
