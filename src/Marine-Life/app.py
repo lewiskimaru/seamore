@@ -1,12 +1,11 @@
-import glob
 import gradio as gr
 from inference import *
 from PIL import Image
 
 
 def gradio_app(image_path):
-    """A function that send the file to the inference pipeline, and filters
-    some predictions before outputting to gradio interface."""
+    """A function that sends the file to the inference pipeline, and applies filters to certain 
+        predictions before displaying the output on the Gradio interface."""
 
     predictions = run_inference(image_path)
 
@@ -20,12 +19,9 @@ description = (
     ""
 )
 
-examples = glob.glob("images/*.png")
-
 gr.Interface(gradio_app,
              inputs=[gr.inputs.Image(type="filepath")],
              outputs=gr.outputs.Image(type="pil"),
              enable_queue=True,
              title=Title,
-             description=description,
-             examples=examples).launch()
+             description=description).launch()
