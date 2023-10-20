@@ -45,7 +45,7 @@ Moreover, Seamore's integrated approach serves as a significant improvement over
 
 In essence, Seamore represents a pioneering technological solution that is poised to revolutionize the field of ocean exploration and conservation. By leveraging the capabilities of advanced robotics and data analytics, Seamore is dedicated to safeguarding the health and resilience of our oceans, ensuring the preservation of marine biodiversity for future generations. Through collaborative efforts and a shared commitment to environmental stewardship, Seamore aims to foster a global movement toward sustainable ocean management and a more secure future for our planet's most vital ecosystem.
 
-More detail is available in our [website](https://www.seamore.earth/).
+More detail is available on our [website](https://www.seamore.earth/).
 
 ## Technology implementation
 
@@ -57,20 +57,23 @@ More detail is available in our [website](https://www.seamore.earth/).
 
 - IBM Cloud Object Storage - Computer vision models and data collected from the seabot network
 
-### Solution architecture
+### Solution Architecture
 
-Diagram and step-by-step description of the flow of our solution:
+Diagram and a step-by-step description of the flow of our solution:
 
-![Video transcription/translaftion app](https://developer.ibm.com/developer/tutorials/cfc-starter-kit-speech-to-text-app-example/images/cfc-covid19-remote-education-diagram-2.png)
+![Roadmap](./images/architecture.png)
 
-1. The user navigates to the site and uploads a video file.
-2. Watson Speech to Text processes the audio and extracts the text.
-3. Watson Translation (optionally) can translate the text to the desired language.
-4. The app stores the translated text as a document within Object Storage.
+**Webpage Implementation**
+1. The user navigates to the site and uploads an image file.
+2. Our custom model processes the image and makes a prediction.
+
+**Seabot Implementation**
+1. Seamore's autonomous Seabots are deployed into the ocean, and they start collecting real-time data on various aspects.
+2. The collected data is transmitted securely and efficiently to a centralized cloud server upon the seabots resurfacing for recharging.
+3. The analyzed data is meticulously mapped onto an interactive global interface, providing a comprehensive view of the ocean's health and ecosystem dynamics.
+4. Seamore's seabots continue to operate seamlessly, providing continuous and up-to-date data to facilitate ongoing monitoring and adaptation strategies.
 
 ## Presentation materials
-
-_INSTRUCTIONS: The following deliverables should be officially posted to your My Team > Submissions section of the [Call for Code Global Challenge resources site](https://cfc-prod.skillsnetwork.site/), but you can also include them here for completeness. Replace the examples seen here with your own deliverable links._
 
 ### Solution demo video
 
@@ -78,7 +81,7 @@ _INSTRUCTIONS: The following deliverables should be officially posted to your My
 
 ### Project development roadmap
 
-The project currently consists of 3 main components: our custom machine learning models, the electronic system for the AUV (seabot) and the website where users can interact with the models and does the following things.
+The project currently consists of 3 main components: our custom machine learning models, the AUV (seabot) electronic system, and the website where users can interact with the models and do the following things.
 
 - Identify marine life
 - Identify trash in the ocean
@@ -91,7 +94,7 @@ In the future, we would like to:
 - Partner with a satellite communication company to enable data transfer to and fro the seabots
 - Seek funding to support the continued development of Seamore, including the possibility of developing a solution to help recover trash from the ocean.
   
-See below for our proposed schedule on next steps after Call for Code 2023 submission.
+See below for our proposed schedule on the next steps after Call for Code 2023 submission.
 
 ![Roadmap](./images/roadmap.png)
 
