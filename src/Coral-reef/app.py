@@ -1,6 +1,5 @@
 import gradio as gr
 import tensorflow as tf
-import glob
 import numpy as np 
 from PIL import Image
 
@@ -24,7 +23,6 @@ description = (
     ""
 )
 
-examples = glob.glob("images/*.jpg")
 
 interface = gr.Interface(
     run,
@@ -33,7 +31,6 @@ interface = gr.Interface(
     #outputs=gradio.outputs.Label(num_top_classes=3),
     title=title,
     description=description,
-    examples=examples,
 )
 
 interface.queue().launch()
